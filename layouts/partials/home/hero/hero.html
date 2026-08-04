@@ -6,24 +6,18 @@
       {{ .content }}
     </div>
     <div class="hero-art" aria-label="{{ .params.audio_label }}">
-      <svg class="waveform" viewBox="668 190 750 497" aria-hidden="true">
-        <defs>
-          <clipPath id="hero-vector" clipPathUnits="userSpaceOnUse">
-            <use href="/images/home/hero-vector.svg?v=3#hero-vector" />
-          </clipPath>
-        </defs>
-        <foreignObject x="668" y="190" width="750" height="497" clip-path="url(#hero-vector)">
-          <div class="waveform-image" xmlns="http://www.w3.org/1999/xhtml">
-            <img
-              src="{{ $heroImage.RelPermalink }}"
-              width="2000"
-              height="1500"
-              alt=""
-              fetchpriority="high"
-              decoding="async">
-          </div>
-        </foreignObject>
-      </svg>
+      <div class="waveform" aria-hidden="true">
+        <!-- object-position and width chosen for aesthetic reasons, vary with different hero images -->
+        <img
+          class="waveform-image"
+          style="object-position: left bottom; width: 150%;"
+          src="{{ $heroImage.RelPermalink }}"
+          width="2000"
+          height="1500"
+          alt=""
+          fetchpriority="high"
+          decoding="async">
+      </div>
     </div>
   </div>
 </section>

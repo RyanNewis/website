@@ -73,24 +73,21 @@
     overflow: visible;
     position: absolute;
     width: 750px;
+    -webkit-mask-image: url("/images/home/hero-vector.svg");
+    -webkit-mask-position: 0 0;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-image: url("/images/home/hero-vector.svg");
+    mask-position: 0 0;
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
     z-index: 1;
 }
 
 .waveform-image {
+    display: block;
     height: 100%;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-
-    img {
-        bottom: 0;
-        display: block;
-        height: auto;
-        left: 0;
-        max-width: none;
-        position: absolute;
-        width: 150%;
-    }
+    object-fit: cover;
 }
 
 /* Platform section styles */
@@ -123,6 +120,7 @@
 
     /* keeping the shoelace border variable makes it easier to override the border color for highlighted cards */
     --border-color: var(--oe-color-border);
+
     &::part(base) {
         background: var(--oe-background-color);
         border-width: 1.5px;
