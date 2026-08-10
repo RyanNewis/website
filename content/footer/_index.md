@@ -49,4 +49,4 @@ partners:
 
 We acknowledge the Traditional Owners of the lands on which we work and pay our respects to Elders past and present.
 
-Open Ecoacoustics received investment from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+Open Ecoacoustics is supported through a co-investment partnership with the Australian Research Data Commons (ARDC) ([DOI: 10.3565/ts8c-ee10](https://doi.org/10.3565/ts8c-ee10)) through the Planet Research Data Commons. The ARDC is enabled by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS).
