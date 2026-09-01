@@ -2,9 +2,28 @@
   command = "hugo"
   publish = "public"
 
-[build.environment]
-  HUGO_VERSION = "0.134.3"
-  HUGO_ENABLEGITINFO = "true"
+  [build.environment]
+    HUGO_VERSION = "0.134.3"
+    HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-  command = "hugo --buildDrafts --buildFuture"
+  command = "hugo --minify --buildDrafts --buildFuture"
+
+[[headers]]
+  # Root-level cache-busted CSS bundles (example: book.min.<hash>.css)
+  for = "/*.*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Root-level cache-busted JS bundles (example: en.search.min.<hash>.js)
+  for = "/*.*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Hugo converted images have a `_hu<hash>` suffix
+# All of these use cache-buster URLs, so they are safe to cache.
+[[headers]]
+  for = "/images/*_hu*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

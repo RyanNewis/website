@@ -17,5 +17,8 @@ trim_trailing_whitespace = false
 [*.yml]
 indent_size = 2
 
+[*.toml]
+indent_size = 2
+
 [*.html]
 insert_final_newline = false
