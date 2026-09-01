@@ -47,10 +47,10 @@
 {{ end }}
 {{ end }}
 {{ with resources.Get "css/theme/light.css" }}
-<link href="{{ .RelPermalink }}" media="(prefers-color-scheme:light)" rel="stylesheet" data-theme-toggle="light" />
+<style media="(prefers-color-scheme:light)" data-theme-toggle="light">{{ .Content | safeCSS }}</style>
 {{ end }}
 {{ with resources.Get "css/theme/dark.css" }}
-<link href="{{ .RelPermalink }}" media="(prefers-color-scheme:dark)" rel="stylesheet" data-theme-toggle="dark" />
+<style media="(prefers-color-scheme:dark)" data-theme-toggle="dark">{{ .Content | safeCSS }}</style>
 {{ end }}
 {{- $css := resources.Get "css/oe-main.css" }}
 {{- $css = $css | resources.ExecuteAsTemplate "css/oe-main.css" . | css.Sass }}
@@ -82,6 +82,6 @@
 
 {{/*  Asciinema  */}}
 {{ if .HasShortcode "asciinema" }}
-<script src="https://unpkg.com/asciinema-player@3.0.1/dist/bundle/asciinema-player.min.js"></script>
+<script defer src="https://unpkg.com/asciinema-player@3.0.1/dist/bundle/asciinema-player.min.js"></script>
 <link href="https://unpkg.com/asciinema-player@3.0.1/dist/bundle/asciinema-player.css" rel="stylesheet" />
 {{ end }}
