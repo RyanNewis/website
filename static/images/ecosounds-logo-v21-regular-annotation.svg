@@ -1,0 +1,40 @@
+<!-- Ecosounds logo variant: the bounding box verticals are sample-width
+     (3.78) and sit in the 7.0 sample grid, so samples and box lines share
+     one regular rhythm. -->
+<svg id="ecosounds-logo-regular-annotation" data-name="v21 regular annotation" xmlns="http://www.w3.org/2000/svg" viewBox="52.5 -1 80 62">
+  <defs>
+    <style>
+      #ecosounds-logo-regular-annotation .cls-2 {
+        fill: var(--ecosounds-logo-wave-color, #666);
+      }
+
+      #ecosounds-logo-regular-annotation .box {
+        fill: none;
+        stroke: var(--ecosounds-logo-accent-color, #00467f);
+        stroke-width: 3.78;
+      }
+
+      #ecosounds-logo-regular-annotation .label {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+    </style>
+  </defs>
+  <!-- samples on a 6.0 pitch; box verticals occupy slots 2 and 10 -->
+  <g class="cls-2">
+    <rect x="54.41" y="27.27" width="3.78" height="10.11" rx="1.89"/>
+    <rect x="60.41" y="29.48" width="3.78" height="5.7" rx="1.89"/>
+    <rect x="72.41" y="26.33" width="3.78" height="11.99" rx="1.89"/>
+    <rect x="78.41" y="20.96" width="3.78" height="22.74" rx="1.89"/>
+    <rect x="84.41" y="13.7" width="3.78" height="37.27" rx="1.89"/>
+    <rect x="90.41" y="9.86" width="3.78" height="44.92" rx="1.89"/>
+    <rect x="96.41" y="18.3" width="3.78" height="28.07" rx="1.89"/>
+    <rect x="102.41" y="23.04" width="3.78" height="18.58" rx="1.89"/>
+    <rect x="108.41" y="27.94" width="3.78" height="8.79" rx="1.89"/>
+    <rect x="120.41" y="25.01" width="3.78" height="14.64" rx="1.89"/>
+    <rect x="126.41" y="29.19" width="3.78" height="6.28" rx="1.89"/>
+  </g>
+  <!-- label overlaps the border top so the join is seamless; width = 33% of box -->
+  <path class="label" d="M66.41,5.91v-4.9a1,1 0 0 1 1,-1h15.1a1,1 0 0 1 1,1v4.9Z"/>
+  <!-- sample-width borders, square top-left corner where the label sits -->
+  <path class="box" d="M68.3,7.3H113.8A2.5,2.5 0 0 1 116.3,9.8V54.7A2.5,2.5 0 0 1 113.8,57.2H70.8A2.5,2.5 0 0 1 68.3,54.7Z"/>
+</svg>

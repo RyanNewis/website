@@ -1,0 +1,39 @@
+<!-- Ecosounds logo variant: annotation box solid-filled in theme colour,
+     selected samples knocked out as negative space; no bird. -->
+<svg id="ecosounds-logo-annotation-negative-plain" data-name="v20 negative annotation (no bird)" xmlns="http://www.w3.org/2000/svg" viewBox="52.5 1 71 58">
+  <defs>
+    <style>
+      #ecosounds-logo-annotation-negative-plain .cls-2 {
+        fill: var(--ecosounds-logo-wave-color, #666);
+      }
+
+      #ecosounds-logo-annotation-negative-plain .solid {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+        stroke: var(--ecosounds-logo-accent-color, #00467f);
+        stroke-width: 1.6;
+      }
+    </style>
+    <!-- knock the selected samples out of the solid box -->
+    <mask id="es-negp-cut" maskUnits="userSpaceOnUse" x="52.5" y="1" width="71" height="58">
+      <rect x="52.5" y="1" width="71" height="58" fill="#fff"/>
+      <rect x="68.41" y="26.33" width="3.78" height="11.99" rx="1.89" fill="#000"/>
+      <rect x="75.41" y="20.96" width="3.78" height="22.74" rx="1.89" fill="#000"/>
+      <rect x="82.41" y="13.7" width="3.78" height="37.27" rx="1.89" fill="#000"/>
+      <rect x="89.41" y="9.86" width="3.78" height="44.92" rx="1.89" fill="#000"/>
+      <rect x="96.41" y="18.3" width="3.78" height="28.07" rx="1.89" fill="#000"/>
+      <rect x="103.41" y="23.04" width="3.78" height="18.58" rx="1.89" fill="#000"/>
+    </mask>
+  </defs>
+  <!-- context samples outside the box -->
+  <g class="cls-2">
+    <rect x="54.41" y="27.27" width="3.78" height="10.11" rx="1.89"/>
+    <rect x="61.41" y="29.48" width="3.78" height="5.7" rx="1.89"/>
+    <rect x="110.41" y="27.94" width="3.78" height="8.79" rx="1.89"/>
+    <rect x="117.41" y="25.01" width="3.78" height="14.64" rx="1.89"/>
+  </g>
+  <!-- solid annotation box + label, samples as negative space -->
+  <g mask="url(#es-negp-cut)">
+    <path class="solid" d="M66.8,8.4H106.3A2.5,2.5 0 0 1 108.8,10.9V53.5A2.5,2.5 0 0 1 106.3,56H69.3A2.5,2.5 0 0 1 66.8,53.5Z"/>
+    <path class="solid" d="M66.8,8.4v-4.4a1,1 0 0 1 1,-1h14a1,1 0 0 1 1,1v4.4Z"/>
+  </g>
+</svg>

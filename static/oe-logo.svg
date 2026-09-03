@@ -2,7 +2,7 @@
   <defs>
     <style>
       #oe-logo .cls-1 {
-        fill: var(--oe-theme-color);
+        fill: var(--oe-theme-color, #CB7E30);
       }
       #oe-logo .cls-2 {
         fill: var(--logo-invert-color, #231f20);

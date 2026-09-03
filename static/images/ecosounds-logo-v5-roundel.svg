@@ -1,0 +1,42 @@
+<!-- Ecosounds logo variant: sampled bird in a theme-colour roundel,
+     white waveform samples. -->
+<svg id="ecosounds-logo-circle" data-name="v5 roundel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      #ecosounds-logo-circle .disc {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+
+      #ecosounds-logo-circle .bar {
+        fill: var(--ecosounds-logo-roundel-wave-color, #ffffff);
+      }
+    </style>
+  </defs>
+  <circle class="disc" cx="36" cy="36" r="36"/>
+  <g transform="translate(6.9 19.5)">
+    <rect class="bar" x="0.80" y="29.02" width="1.4" height="2.02" rx="0.7"/>
+    <rect class="bar" x="3.20" y="21.90" width="1.4" height="5.17" rx="0.7"/>
+    <rect class="bar" x="5.60" y="18.27" width="1.4" height="5.53" rx="0.7"/>
+    <rect class="bar" x="8.00" y="16.06" width="1.4" height="5.20" rx="0.7"/>
+    <rect class="bar" x="10.40" y="14.68" width="1.4" height="4.76" rx="0.7"/>
+    <rect class="bar" x="12.80" y="13.84" width="1.4" height="4.39" rx="0.7"/>
+    <rect class="bar" x="15.20" y="13.45" width="1.4" height="4.23" rx="0.7"/>
+    <rect class="bar" x="17.60" y="13.42" width="1.4" height="4.22" rx="0.7"/>
+    <rect class="bar" x="20.00" y="13.69" width="1.4" height="4.29" rx="0.7"/>
+    <rect class="bar" x="22.40" y="14.24" width="1.4" height="4.41" rx="0.7"/>
+    <rect class="bar" x="24.80" y="15.03" width="1.4" height="4.57" rx="0.7"/>
+    <rect class="bar" x="27.20" y="13.36" width="1.4" height="7.49" rx="0.7"/>
+    <rect class="bar" x="29.60" y="8.33" width="1.4" height="14.04" rx="0.7"/>
+    <rect class="bar" x="32.00" y="5.53" width="1.4" height="7.19" rx="0.7"/>
+    <rect class="bar" x="34.40" y="3.76" width="1.4" height="5.34" rx="0.7"/>
+    <rect class="bar" x="36.80" y="2.74" width="1.4" height="4.51" rx="0.7"/>
+    <rect class="bar" x="39.20" y="2.21" width="1.4" height="3.95" rx="0.7"/>
+    <rect class="bar" x="41.60" y="2.01" width="1.4" height="3.48" rx="0.7"/>
+    <rect class="bar" x="44.00" y="2.07" width="1.4" height="3.04" rx="0.7"/>
+    <rect class="bar" x="46.40" y="2.33" width="1.4" height="2.59" rx="0.7"/>
+    <rect class="bar" x="48.80" y="2.77" width="1.4" height="2.09" rx="0.7"/>
+    <rect class="bar" x="51.20" y="3.37" width="1.4" height="1.52" rx="0.7"/>
+    <rect class="bar" x="53.60" y="3.87" width="1.4" height="1.40" rx="0.7"/>
+    <rect class="bar" x="56.00" y="4.45" width="1.4" height="1.40" rx="0.7"/>
+  </g>
+</svg>

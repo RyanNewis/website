@@ -1,0 +1,41 @@
+<!-- Ecosounds wordmark: the diamond roundel replaces the first "O".
+     All-caps so every glyph shares the cap height; the roundel is sized to
+     match. Text is live (system sans) — convert to outlines for production. -->
+<svg id="ecosounds-logo-wordmark" data-name="v23 wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 50">
+  <defs>
+    <style>
+      #ecosounds-logo-wordmark .disc {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+
+      #ecosounds-logo-wordmark .bar {
+        fill: var(--ecosounds-logo-roundel-wave-color, #ffffff);
+      }
+
+      #ecosounds-logo-wordmark text {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        fill: var(--ecosounds-logo-bird-color, #231f20);
+      }
+    </style>
+  </defs>
+  <text x="4" y="38">EC</text>
+  <!-- roundel as the first "O": cap height plus ~1 unit overshoot each side;
+       gaps match the font's measured inter-cap spacing (~2.9) -->
+  <g transform="translate(46.4 11.5) scale(0.382)">
+    <circle class="disc" cx="36" cy="36" r="36"/>
+    <g transform="translate(2.8 6.93) scale(0.68)">
+      <rect class="bar" x="1.00" y="36.99" width="6.93" height="11.52" rx="3.465"/>
+      <rect class="bar" x="12.09" y="29.32" width="6.93" height="26.86" rx="3.465"/>
+      <rect class="bar" x="23.18" y="17.00" width="6.93" height="51.50" rx="3.465"/>
+      <rect class="bar" x="34.27" y="8.56" width="6.93" height="68.38" rx="3.465"/>
+      <rect class="bar" x="45.36" y="1.54" width="6.93" height="82.43" rx="3.465"/>
+      <rect class="bar" x="56.45" y="8.56" width="6.93" height="68.38" rx="3.465"/>
+      <rect class="bar" x="67.54" y="17.00" width="6.93" height="51.50" rx="3.465"/>
+      <rect class="bar" x="78.63" y="29.32" width="6.93" height="26.86" rx="3.465"/>
+      <rect class="bar" x="89.72" y="36.99" width="6.93" height="11.52" rx="3.465"/>
+    </g>
+  </g>
+  <text x="75.4" y="38">SOUNDS</text>
+</svg>

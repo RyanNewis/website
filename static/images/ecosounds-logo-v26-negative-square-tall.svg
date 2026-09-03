@@ -1,0 +1,28 @@
+<!-- Ecosounds logo variant: v24 with the samples scaled vertically (×1.425
+     around the waveform midline) to fill more of the square. -->
+<svg id="ecosounds-logo-negative-square-tall" data-name="v26 negative square (tall)" xmlns="http://www.w3.org/2000/svg" viewBox="48.5 -10.5 85.6 85.6">
+  <defs>
+    <style>
+      #ecosounds-logo-negative-square-tall .solid {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+    </style>
+    <mask id="es-negsqt-cut" maskUnits="userSpaceOnUse" x="48.5" y="-10.5" width="85.6" height="85.6">
+      <rect x="48.5" y="-10.5" width="85.6" height="85.6" fill="#fff"/>
+      <rect x="54.41" y="25.12" width="3.78" height="14.41" rx="1.89" fill="#000"/>
+      <rect x="61.41" y="28.27" width="3.78" height="8.12" rx="1.89" fill="#000"/>
+      <rect x="68.41" y="23.78" width="3.78" height="17.09" rx="1.89" fill="#000"/>
+      <rect x="75.41" y="16.13" width="3.78" height="32.40" rx="1.89" fill="#000"/>
+      <rect x="82.41" y="5.78" width="3.78" height="53.11" rx="1.89" fill="#000"/>
+      <rect x="89.41" y="0.31" width="3.78" height="64.01" rx="1.89" fill="#000"/>
+      <rect x="96.41" y="12.34" width="3.78" height="40.00" rx="1.89" fill="#000"/>
+      <rect x="103.41" y="19.10" width="3.78" height="26.47" rx="1.89" fill="#000"/>
+      <rect x="110.41" y="26.07" width="3.78" height="12.53" rx="1.89" fill="#000"/>
+      <rect x="117.41" y="21.90" width="3.78" height="20.86" rx="1.89" fill="#000"/>
+      <rect x="124.41" y="27.86" width="3.78" height="8.95" rx="1.89" fill="#000"/>
+      <!-- bird raised so top padding matches the 4.7 left padding -->
+      <path fill="#000" transform="translate(0 -4.2)" d="M82.17,1.17c-3.14-1.17-7.45-1.84-10.1-.15-2.43,1.55-3.35,4.25-3.69,5.86-1.79-.81-5.04-1.87-7.97-.59-2.57,1.09-4.24,3.65-5,7.67l-.17,1.03.49-.88c1.72-2.96,3.35-4.94,5.51-5.89,3.22-1.4,7.36,1.14,7.41,1.17l1.51.96.09-1.78s.26-4.04,2.96-5.77c1.87-1.19,4.36-1.55,8.89-1.29l1.25.13-1.19-.47Z"/>
+    </mask>
+  </defs>
+  <rect class="solid" x="50.5" y="-8.5" width="81.6" height="81.6" rx="8" mask="url(#es-negsqt-cut)"/>
+</svg>

@@ -1,0 +1,31 @@
+<!-- Ecosounds roundel variant: symmetric sample diamond with the original
+     bird flying in from the top left, white on theme-colour disc. -->
+<svg id="ecosounds-logo-circle-diamond" data-name="v15 diamond roundel + bird" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      #ecosounds-logo-circle-diamond .disc {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+
+      #ecosounds-logo-circle-diamond .bar,
+      #ecosounds-logo-circle-diamond .bird {
+        fill: var(--ecosounds-logo-roundel-wave-color, #ffffff);
+      }
+    </style>
+  </defs>
+  <circle class="disc" cx="36" cy="36" r="36"/>
+  <!-- symmetric sample diamond, centred in the disc -->
+  <g transform="translate(7.7 11.2) scale(0.58)">
+    <rect class="bar" x="1.00" y="36.99" width="6.93" height="11.52" rx="3.465"/>
+    <rect class="bar" x="12.09" y="29.32" width="6.93" height="26.86" rx="3.465"/>
+    <rect class="bar" x="23.18" y="17.00" width="6.93" height="51.50" rx="3.465"/>
+    <rect class="bar" x="34.27" y="8.56" width="6.93" height="68.38" rx="3.465"/>
+    <rect class="bar" x="45.36" y="1.54" width="6.93" height="82.43" rx="3.465"/>
+    <rect class="bar" x="56.45" y="8.56" width="6.93" height="68.38" rx="3.465"/>
+    <rect class="bar" x="67.54" y="17.00" width="6.93" height="51.50" rx="3.465"/>
+    <rect class="bar" x="78.63" y="29.32" width="6.93" height="26.86" rx="3.465"/>
+    <rect class="bar" x="89.72" y="36.99" width="6.93" height="11.52" rx="3.465"/>
+  </g>
+  <!-- original bird, tucked into the top-left clear space -->
+  <path class="bird" transform="translate(-37.95 6.63) scale(0.85)" d="M82.17,1.17c-3.14-1.17-7.45-1.84-10.1-.15-2.43,1.55-3.35,4.25-3.69,5.86-1.79-.81-5.04-1.87-7.97-.59-2.57,1.09-4.24,3.65-5,7.67l-.17,1.03.49-.88c1.72-2.96,3.35-4.94,5.51-5.89,3.22-1.4,7.36,1.14,7.41,1.17l1.51.96.09-1.78s.26-4.04,2.96-5.77c1.87-1.19,4.36-1.55,8.89-1.29l1.25.13-1.19-.47Z"/>
+</svg>

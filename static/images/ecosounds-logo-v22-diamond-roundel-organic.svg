@@ -1,0 +1,27 @@
+<!-- Ecosounds roundel variant: v17 diamond with slight organic variance in
+     sample heights and offsets, keeping the overall diamond shape. -->
+<svg id="ecosounds-logo-diamond-organic" data-name="v22 diamond roundel (organic)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      #ecosounds-logo-diamond-organic .disc {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+
+      #ecosounds-logo-diamond-organic .bar {
+        fill: var(--ecosounds-logo-roundel-wave-color, #ffffff);
+      }
+    </style>
+  </defs>
+  <circle class="disc" cx="36" cy="36" r="36"/>
+  <g transform="translate(2.8 6.93) scale(0.68)">
+    <rect class="bar" x="1.00" y="36.00" width="6.93" height="13.50" rx="3.465"/>
+    <rect class="bar" x="12.09" y="30.75" width="6.93" height="24.00" rx="3.465"/>
+    <rect class="bar" x="23.18" y="15.25" width="6.93" height="55.00" rx="3.465"/>
+    <rect class="bar" x="34.27" y="10.75" width="6.93" height="64.00" rx="3.465"/>
+    <rect class="bar" x="45.36" y="1.54" width="6.93" height="82.43" rx="3.465"/>
+    <rect class="bar" x="56.45" y="7.25" width="6.93" height="71.00" rx="3.465"/>
+    <rect class="bar" x="67.54" y="19.00" width="6.93" height="47.50" rx="3.465"/>
+    <rect class="bar" x="78.63" y="27.75" width="6.93" height="30.00" rx="3.465"/>
+    <rect class="bar" x="89.72" y="38.00" width="6.93" height="9.50" rx="3.465"/>
+  </g>
+</svg>

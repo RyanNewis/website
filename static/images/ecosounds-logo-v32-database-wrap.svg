@@ -1,0 +1,30 @@
+<!-- Ecosounds logo variant: the stored samples wrap around the cylinder like
+     a tape band — bar widths, spacing and baseline follow the cylinder's
+     elliptical perspective (x = cx + rx·sinθ, w = 3.78·cosθ, dip = ry·cosθ). -->
+<svg id="ecosounds-logo-database-wrap" data-name="v32 database wrap" xmlns="http://www.w3.org/2000/svg" viewBox="48.3 -18 86 90">
+  <defs>
+    <style>
+      #ecosounds-logo-database-wrap .solid {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+    </style>
+    <mask id="es-db-wrap-cut" maskUnits="userSpaceOnUse" x="48.3" y="-18" width="86" height="90">
+      <rect x="48.3" y="-18" width="86" height="90" fill="#fff"/>
+      <!-- lid rim -->
+      <path d="M50.3,-6a41,10 0 0 0 82,0" fill="none" stroke="#000" stroke-width="2"/>
+      <!-- wrapped samples, left edge to right edge -->
+      <rect x="50.57" y="18.69" width="0.66" height="10.11" rx="0.33" fill="#000"/>
+      <rect x="53.57" y="23.53" width="1.66" height="5.7" rx="0.83" fill="#000"/>
+      <rect x="59.54" y="22.70" width="2.53" height="11.99" rx="1.27" fill="#000"/>
+      <rect x="68.00" y="19.11" width="3.21" height="22.74" rx="1.61" fill="#000"/>
+      <rect x="78.19" y="12.98" width="3.63" height="37.27" rx="1.82" fill="#000"/>
+      <rect x="89.41" y="9.54" width="3.78" height="44.92" rx="1.89" fill="#000"/>
+      <rect x="100.79" y="17.58" width="3.63" height="28.07" rx="1.82" fill="#000"/>
+      <rect x="111.40" y="21.19" width="3.21" height="18.58" rx="1.61" fill="#000"/>
+      <rect x="120.56" y="24.30" width="2.53" height="8.79" rx="1.27" fill="#000"/>
+      <rect x="127.37" y="19.06" width="1.66" height="14.64" rx="0.83" fill="#000"/>
+      <rect x="131.37" y="20.60" width="0.66" height="6.28" rx="0.33" fill="#000"/>
+    </mask>
+  </defs>
+  <path class="solid" d="M50.3,-6a41,10 0 0 1 82,0v64a41,10 0 0 1 -82,0Z" mask="url(#es-db-wrap-cut)"/>
+</svg>

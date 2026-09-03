@@ -1,0 +1,44 @@
+<!-- Ecosounds logo variant: samples flow into the database — grey samples
+     approach from the left, the cylinder holds them as negative space. -->
+<svg id="ecosounds-logo-database-ingest" data-name="v30 database ingest" xmlns="http://www.w3.org/2000/svg" viewBox="-14.5 -18 148.8 90">
+  <defs>
+    <style>
+      #ecosounds-logo-database-ingest .cls-2 {
+        fill: var(--ecosounds-logo-wave-color, #666);
+      }
+
+      #ecosounds-logo-database-ingest .solid {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+    </style>
+    <mask id="es-db-ingest-cut" maskUnits="userSpaceOnUse" x="-14.5" y="-18" width="148.8" height="90">
+      <rect x="-14.5" y="-18" width="148.8" height="90" fill="#fff"/>
+      <!-- lid rim -->
+      <path d="M50.3,-6a41,10 0 0 0 82,0" fill="none" stroke="#000" stroke-width="2"/>
+      <rect x="54.41" y="27.27" width="3.78" height="10.11" rx="1.89" fill="#000"/>
+      <rect x="61.41" y="29.48" width="3.78" height="5.7" rx="1.89" fill="#000"/>
+      <rect x="68.41" y="26.33" width="3.78" height="11.99" rx="1.89" fill="#000"/>
+      <rect x="75.41" y="20.96" width="3.78" height="22.74" rx="1.89" fill="#000"/>
+      <rect x="82.41" y="13.7" width="3.78" height="37.27" rx="1.89" fill="#000"/>
+      <rect x="89.41" y="9.86" width="3.78" height="44.92" rx="1.89" fill="#000"/>
+      <rect x="96.41" y="18.3" width="3.78" height="28.07" rx="1.89" fill="#000"/>
+      <rect x="103.41" y="23.04" width="3.78" height="18.58" rx="1.89" fill="#000"/>
+      <rect x="110.41" y="27.94" width="3.78" height="8.79" rx="1.89" fill="#000"/>
+      <rect x="117.41" y="25.01" width="3.78" height="14.64" rx="1.89" fill="#000"/>
+      <rect x="124.41" y="29.19" width="3.78" height="6.28" rx="1.89" fill="#000"/>
+    </mask>
+  </defs>
+  <!-- incoming samples: the original logo's first nine, in order -->
+  <g class="cls-2">
+    <rect x="-12.5" y="29.48" width="3.78" height="5.7" rx="1.89"/>
+    <rect x="-5.5" y="25.71" width="3.78" height="13.24" rx="1.89"/>
+    <rect x="1.5" y="15.38" width="3.78" height="33.9" rx="1.89"/>
+    <rect x="8.5" y="21.54" width="3.78" height="21.57" rx="1.89"/>
+    <rect x="15.5" y="28.86" width="3.78" height="6.94" rx="1.89"/>
+    <rect x="22.5" y="26.99" width="3.78" height="10.68" rx="1.89"/>
+    <rect x="29.5" y="18.57" width="3.78" height="27.52" rx="1.89"/>
+    <rect x="36.5" y="14.2" width="3.78" height="36.26" rx="1.89"/>
+    <rect x="43.5" y="24.57" width="3.78" height="15.53" rx="1.89"/>
+  </g>
+  <path class="solid" d="M50.3,-6a41,10 0 0 1 82,0v64a41,10 0 0 1 -82,0Z" mask="url(#es-db-ingest-cut)"/>
+</svg>

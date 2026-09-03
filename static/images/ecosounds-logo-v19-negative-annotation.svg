@@ -1,0 +1,45 @@
+<!-- Ecosounds logo variant: annotation box solid-filled in theme colour,
+     selected samples knocked out as negative space; bird above. -->
+<svg id="ecosounds-logo-annotation-negative" data-name="v19 negative annotation" xmlns="http://www.w3.org/2000/svg" viewBox="52.5 -8 71 67">
+  <defs>
+    <style>
+      #ecosounds-logo-annotation-negative .cls-1 {
+        fill: var(--ecosounds-logo-bird-color, #231f20);
+      }
+
+      #ecosounds-logo-annotation-negative .cls-2 {
+        fill: var(--ecosounds-logo-wave-color, #666);
+      }
+
+      #ecosounds-logo-annotation-negative .solid {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+        stroke: var(--ecosounds-logo-accent-color, #00467f);
+        stroke-width: 1.6;
+      }
+    </style>
+    <!-- knock the selected samples out of the solid box -->
+    <mask id="es-neg-cut" maskUnits="userSpaceOnUse" x="52.5" y="-8" width="71" height="67">
+      <rect x="52.5" y="-8" width="71" height="67" fill="#fff"/>
+      <rect x="68.41" y="26.33" width="3.78" height="11.99" rx="1.89" fill="#000"/>
+      <rect x="75.41" y="20.96" width="3.78" height="22.74" rx="1.89" fill="#000"/>
+      <rect x="82.41" y="13.7" width="3.78" height="37.27" rx="1.89" fill="#000"/>
+      <rect x="89.41" y="9.86" width="3.78" height="44.92" rx="1.89" fill="#000"/>
+      <rect x="96.41" y="18.3" width="3.78" height="28.07" rx="1.89" fill="#000"/>
+      <rect x="103.41" y="23.04" width="3.78" height="18.58" rx="1.89" fill="#000"/>
+    </mask>
+  </defs>
+  <!-- context samples outside the box -->
+  <g class="cls-2">
+    <rect x="54.41" y="27.27" width="3.78" height="10.11" rx="1.89"/>
+    <rect x="61.41" y="29.48" width="3.78" height="5.7" rx="1.89"/>
+    <rect x="110.41" y="27.94" width="3.78" height="8.79" rx="1.89"/>
+    <rect x="117.41" y="25.01" width="3.78" height="14.64" rx="1.89"/>
+  </g>
+  <!-- solid annotation box + label, samples as negative space -->
+  <g mask="url(#es-neg-cut)">
+    <path class="solid" d="M66.8,8.4H106.3A2.5,2.5 0 0 1 108.8,10.9V53.5A2.5,2.5 0 0 1 106.3,56H69.3A2.5,2.5 0 0 1 66.8,53.5Z"/>
+    <path class="solid" d="M66.8,8.4v-4.4a1,1 0 0 1 1,-1h14a1,1 0 0 1 1,1v4.4Z"/>
+  </g>
+  <!-- bird beside the label, centred over the space to the box's right edge -->
+  <path class="cls-1" transform="translate(51.16 -2.24) scale(0.65)" d="M82.17,1.17c-3.14-1.17-7.45-1.84-10.1-.15-2.43,1.55-3.35,4.25-3.69,5.86-1.79-.81-5.04-1.87-7.97-.59-2.57,1.09-4.24,3.65-5,7.67l-.17,1.03.49-.88c1.72-2.96,3.35-4.94,5.51-5.89,3.22-1.4,7.36,1.14,7.41,1.17l1.51.96.09-1.78s.26-4.04,2.96-5.77c1.87-1.19,4.36-1.55,8.89-1.29l1.25.13-1.19-.47Z"/>
+</svg>

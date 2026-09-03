@@ -1,0 +1,28 @@
+<!-- Ecosounds logo variant: v26's negative-space treatment on a database
+     cylinder — samples knocked out of the solid, rim arc suggests the lid. -->
+<svg id="ecosounds-logo-database-cylinder" data-name="v27 database cylinder" xmlns="http://www.w3.org/2000/svg" viewBox="48.3 -18 86 90">
+  <defs>
+    <style>
+      #ecosounds-logo-database-cylinder .solid {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+    </style>
+    <mask id="es-db-cyl-cut" maskUnits="userSpaceOnUse" x="48.3" y="-18" width="86" height="90">
+      <rect x="48.3" y="-18" width="86" height="90" fill="#fff"/>
+      <!-- lid rim -->
+      <path d="M50.3,-6a41,10 0 0 0 82,0" fill="none" stroke="#000" stroke-width="2"/>
+      <rect x="54.41" y="27.27" width="3.78" height="10.11" rx="1.89" fill="#000"/>
+      <rect x="61.41" y="29.48" width="3.78" height="5.7" rx="1.89" fill="#000"/>
+      <rect x="68.41" y="26.33" width="3.78" height="11.99" rx="1.89" fill="#000"/>
+      <rect x="75.41" y="20.96" width="3.78" height="22.74" rx="1.89" fill="#000"/>
+      <rect x="82.41" y="13.7" width="3.78" height="37.27" rx="1.89" fill="#000"/>
+      <rect x="89.41" y="9.86" width="3.78" height="44.92" rx="1.89" fill="#000"/>
+      <rect x="96.41" y="18.3" width="3.78" height="28.07" rx="1.89" fill="#000"/>
+      <rect x="103.41" y="23.04" width="3.78" height="18.58" rx="1.89" fill="#000"/>
+      <rect x="110.41" y="27.94" width="3.78" height="8.79" rx="1.89" fill="#000"/>
+      <rect x="117.41" y="25.01" width="3.78" height="14.64" rx="1.89" fill="#000"/>
+      <rect x="124.41" y="29.19" width="3.78" height="6.28" rx="1.89" fill="#000"/>
+    </mask>
+  </defs>
+  <path class="solid" d="M50.3,-6a41,10 0 0 1 82,0v64a41,10 0 0 1 -82,0Z" mask="url(#es-db-cyl-cut)"/>
+</svg>

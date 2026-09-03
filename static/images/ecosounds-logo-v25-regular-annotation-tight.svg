@@ -1,0 +1,36 @@
+<!-- Ecosounds logo variant: v21 without the context samples — just the
+     sample-width box, label, and the enclosed waveform. -->
+<svg id="ecosounds-logo-regular-annotation-tight" data-name="v25 regular annotation (no context)" xmlns="http://www.w3.org/2000/svg" viewBox="58.5 -1 62 62">
+  <defs>
+    <style>
+      #ecosounds-logo-regular-annotation-tight .cls-2 {
+        fill: var(--ecosounds-logo-wave-color, #666);
+      }
+
+      #ecosounds-logo-regular-annotation-tight .box {
+        fill: none;
+        stroke: var(--ecosounds-logo-accent-color, #00467f);
+        stroke-width: 3.78;
+      }
+
+      #ecosounds-logo-regular-annotation-tight .label {
+        fill: var(--ecosounds-logo-accent-color, #00467f);
+      }
+    </style>
+  </defs>
+  <!-- samples on a 6.0 pitch; box verticals share the grid -->
+  <g class="cls-2">
+    <rect x="66.41" y="29.48" width="3.78" height="5.7" rx="1.89"/>
+    <rect x="72.41" y="26.33" width="3.78" height="11.99" rx="1.89"/>
+    <rect x="78.41" y="20.96" width="3.78" height="22.74" rx="1.89"/>
+    <rect x="84.41" y="13.7" width="3.78" height="37.27" rx="1.89"/>
+    <rect x="90.41" y="9.86" width="3.78" height="44.92" rx="1.89"/>
+    <rect x="96.41" y="18.3" width="3.78" height="28.07" rx="1.89"/>
+    <rect x="102.41" y="23.04" width="3.78" height="18.58" rx="1.89"/>
+    <rect x="108.41" y="27.94" width="3.78" height="8.79" rx="1.89"/>
+  </g>
+  <!-- label overlaps the border top so the join is seamless; width = 33% of box -->
+  <path class="label" d="M60.41,5.91v-4.9a1,1 0 0 1 1,-1h15.1a1,1 0 0 1 1,1v4.9Z"/>
+  <!-- sample-width borders, square top-left corner where the label sits -->
+  <path class="box" d="M62.3,7.3H113.8A2.5,2.5 0 0 1 116.3,9.8V54.7A2.5,2.5 0 0 1 113.8,57.2H64.8A2.5,2.5 0 0 1 62.3,54.7Z"/>
+</svg>
